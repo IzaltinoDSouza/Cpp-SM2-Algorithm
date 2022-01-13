@@ -21,7 +21,7 @@ int main()
 	
 	SM2::Grade grade = SM2::Grade::again;
 	
-	while(static_cast<size_t>(grade) < 3)
+	while(static_cast<size_t>(grade) <= 3)
 	{
 		grade = user_answer();
 		
